@@ -8,6 +8,7 @@ public class FerrariFactory extends FactoryClass {
     public void buildCar(){
         Scanner in = new Scanner(System.in);
         System.out.println("Choose your car type 1.Family 2.Racing 3.Sport");
+        System.out.println("dsa");
         if(in.hasNextLine()){
             switch (in.nextInt()){
                 case 1: theCar = new FerrariFamiliy();
